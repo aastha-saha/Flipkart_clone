@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&family=Pacifico&display=swap');
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter', serif;
+    /* font-family: 'Pacifico', cursive; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* global variable */
+:root {
+    --main-bg-color: #2874f0;
+  }
+.slider{
+    overflow: hidden;
+
+}
+header{
+    background-color: var(--main-bg-color);
+    /* height: 58px; */
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-family: 'Bitter', serif;
+}
+nav ul li a:hover{
+    color:rgb(9, 9, 101);
+    font-weight: bold;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding:0px 25px
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display:flex;
+    align-items: center;
+}
+.search input{
+    height:4vh;
+    width: 27vw;
+    border-radius: 5px;
+    margin: 0 5px 4px 5px;
+    font-family: 'Bitter', serif;
+    padding:0 12px;
+}
+.slider{
+    /* for centering the image */
+    margin: auto;
+    width: 80vw;
+    margin: 7px auto;
+    height:60vh;
+    overflow: hidden;
+}
+.slider img{
+    background-size: contain;
+}
+.card{
+    max-width:97vw;
+    /* border:2px solid black; */
+    /* margin: auto; */
+    margin: 20px auto;
+    font-family: 'Bitter', serif;
+}
+.card-item{
+    display: inline-flex ;
+    justify-content: center;
+    flex-direction: column;
+    /* width:10vw; */
+    font-family: 'Bitter', serif;
+    margin: 0 15px;
+}
+.card-item img{
+    cursor: pointer;
+    padding: 0 7px;
+} 
+.card-item-holder{
+    display: flex;
+    /* justify-content: center;
+    flex-direction: row; */
+    overflow: auto;
+    /* height: 50px; */
+}
+hr{
+    margin: 0 15px;
+}

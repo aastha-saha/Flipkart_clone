@@ -1,0 +1,43 @@
+@media screen and (max-width:806px)
+{
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul li a{
+        padding: 8vw;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .search input{
+        width: 70vw;
+    }
+    .logo{
+        justify-content: center;
+        margin: 5px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .my2{
+        padding:0 500px 0 0;
+    }
+    .slider{
+        height: 40vh;
+    }
+}
+@media screen and (max-width:1500px)
+{
+    .my2{
+        padding:0 60vw 0 0;
+    }
+}
+@media screen and (max-width:942px)
+{
+    .my2{
+        padding:0 20vw 0 0;
+    }
+}
